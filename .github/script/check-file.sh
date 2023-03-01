@@ -11,7 +11,7 @@ then
   echo "Found $SEARCH in $FILE"
 else
   echo "Missing $SEARCH in $FILE"
-  echo "----------------"
+  echo "_underscore_"
   echo "$(cat $FILE)"
   exit 204  # We're sending a weird code so it looks different from other "failures"
 fi
